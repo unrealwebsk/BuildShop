@@ -1,0 +1,41 @@
+/* Custom */
+* {
+   font-family: 'Ubuntu', sans-serif;
+}
+
+/* Header */
+
+/* Kicker */
+#kicker {
+   min-height: 80vh;
+   background-image: url('/assets/img/kicker.jpeg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+}
+
+/* Offer */
+
+/* About */
+
+/* Contact */
+
+/* Scroll to top */
+#toTop {
+   margin-bottom: 50px;
+   margin-right: -50px;
+   transition: margin 500ms ease-in-out;
+   -webkit-transition: margin 500ms ease-in-out;
+   -moz-transition: margin 500ms ease-in-out;
+   -ms-transition: margin 500ms ease-in-out;
+   -o-transition: margin 500ms ease-in-out;
+}
+#toTop.active {
+   margin-bottom: 50px;
+   margin-right: 50px;
+   transition: margin 500ms ease-in-out;
+   -webkit-transition: margin 500ms ease-in-out;
+   -moz-transition: margin 500ms ease-in-out;
+   -ms-transition: margin 500ms ease-in-out;
+   -o-transition: margin 500ms ease-in-out;
+}

@@ -8,7 +8,7 @@
 /* Kicker */
 #kicker {
    min-height: 80vh;
-   background-image: url('./assets/img/kicker.jpeg');
+   background-image: url('../img/kicker.jpeg');
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center center;

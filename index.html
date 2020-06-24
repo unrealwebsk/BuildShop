@@ -49,7 +49,8 @@
                href="#contact">kontakt</a>
             </li>
          </ul>
-         <a 
+         <a
+         id="burger" 
          class="block md:hidden"
          href="">
                <svg 
@@ -332,5 +333,25 @@
       class="scroll-to w-6 h-6 text-white"
       fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M5 15l7-7 7 7"></path></svg>
    </a>
+   <!-- Mobile menu -->
+<div>
+      <div id="overlay" class="hidden absolute top-0 left-0 w-full h-full z-20 bg-gray-900 opacity-75"></div>
+      <div id="mobile-menu" class="flex flex-wrap justify-center content-center absolute top-0 left-0 w-64 h-screen bg-blue-600 z-20">
+            <button id="close-menu" class="absolute right-0 top-0 mt-5 mr-5">
+                        <svg
+                        class="w-8 h-8 text-white"
+                        fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M6 18L18 6M6 6l12 12"></path></svg>
+            </button>
+            <div class="text-center">
+                  <a
+                  class="block text-white uppercase text-2xl py-2 scroll-to cursor-pointer"
+                  data-target="#offer"
+                  >ponuka</a>
+                  <a class="block text-white uppercase text-2xl py-2 scroll-to cursor-pointer" data-target="#about">o nas</a>
+                  <a class="block text-white uppercase text-2xl py-2 scroll-to cursor-pointer" data-target="#partners">partneri</a>
+                  <a class="block text-white uppercase text-2xl py-2 scroll-to cursor-pointer" data-target="#contact">kontakt</a>
+            </div>
+      </div>
+</div>
 </body>
 </html>

@@ -3,6 +3,10 @@
    font-family: 'Ubuntu', sans-serif;
 }
 
+button:focus {
+   outline: none;
+}
+
 /* Header */
 
 /* Kicker */
@@ -33,6 +37,21 @@
 #toTop.active {
    margin-bottom: 50px;
    margin-right: 50px;
+   transition: margin 500ms ease-in-out;
+   -webkit-transition: margin 500ms ease-in-out;
+   -moz-transition: margin 500ms ease-in-out;
+   -ms-transition: margin 500ms ease-in-out;
+   -o-transition: margin 500ms ease-in-out;
+}
+
+/* Mobile menu */
+
+#mobile-menu {
+   margin-left: -256px;
+}
+
+#mobile-menu.active {
+   margin-left: 0;
    transition: margin 500ms ease-in-out;
    -webkit-transition: margin 500ms ease-in-out;
    -moz-transition: margin 500ms ease-in-out;

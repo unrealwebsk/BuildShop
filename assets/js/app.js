@@ -6,7 +6,7 @@ scrollBtns.forEach(btn => {
    btn.addEventListener('click', (e) => {
       e.preventDefault();
 
-      let section = e.target.getAttribute('data-target');
+      let section = e.target.closest('.scroll-to').getAttribute('data-target');
 
       window.scrollTo({
          top: document.querySelector(section).offsetTop,
